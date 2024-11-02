@@ -11,3 +11,21 @@
 ## Import libraries with DOWNLOAD FILES
 
 > [Download files](https://getbootstrap.com/docs/5.3/getting-started/download/)
+
+# CONTAINERS
+
+> O que são?
+- containers são elementos essenciais para organizar o layout e limitar a largura do conteúdo no site, criando um espaçamento horizontal nas laterais. Eles funcionam como "caixas" que centralizam e ajustam o conteúdo conforme o tamanho da tela.
+
+> Tipos de containers: 
+- .container: Centraliza o conteúdo e ajusta a largura automaticamente conforme o breakpoint (ponto de interrupção) do dispositivo. Em desktops maiores, a largura é fixa.
+- .container-fluid: Sempre ocupa 100% da largura da tela, independentemente do tamanho do dispositivo.
+- .container-{breakpoint} (ex.: .container-sm, .container-md, .container-lg, .container-xl, .container-xxl): Adapta a largura a partir de um breakpoint específico, ficando com largura fixa somente quando atinge aquele tamanho de tela ou maior.
+
+```
+sm: ≥ 576px
+md: ≥ 768px
+lg: ≥ 992px
+xl: ≥ 1200px
+xxl: ≥ 1400px
+```
